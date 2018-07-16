@@ -1,0 +1,442 @@
+.jcFeaturedImage {
+  display: block !important;
+  overflow: hidden; }
+
+.SearchOptional h2 {
+  display: none; }
+
+.SearchOptional h3 + a {
+  display: none; }
+
+.SeventyFiveRow a:after {
+  display: none; }
+
+#masterContentArea .SearchOptional h3 {
+  color: transparent;
+  letter-spacing: -8px; }
+
+#masterContentArea .SearchOptional h3:before {
+  content: "To narrow your search, choose firm specialties:";
+  color: #ff6c2f;
+  text-transform: initial;
+  letter-spacing: 0px; }
+
+.DataRow .ButtonBar {
+  display: none; }
+
+.ProjectRow {
+  border: none !important; }
+
+.TwentyFiveRow img {
+  min-height: 100px; }
+
+[id*="ciSearchiPart_DivDetails"] .ButtonBar {
+  display: none; }
+
+.ProjectRow b {
+  display: none; }
+
+[id*="UploadUtility_ciUploadUtility_DivImage"] > .FullRow:nth-child(3) .RowLabel {
+  color: transparent !important;
+  letter-spacing: -8px; }
+
+[id*="UploadUtility_ciUploadUtility_DivImage"] > .FullRow:nth-child(3) .RowLabel:before {
+  content: "Project Description/Caption:";
+  color: #000;
+  text-transform: initial;
+  letter-spacing: 0px; }
+
+.DataRow > .FullRow .TwentyFiveRow, .DataRow > .FullRow .SeventyFiveRow {
+  width: 50%;
+  min-width: auto; }
+
+.SeventyFiveRow [id*="DivPractice"] {
+  display: none; }
+
+.TwentyFiveRow a {
+  width: 100%;
+  max-height: 260px;
+  overflow: hidden;
+  display: inline-block; }
+
+.TwentyFiveRow a img {
+  width: 100%;
+  max-width: 500px; }
+
+.LocRight {
+  background-image: url(images/directory/icon_map_blue.png);
+  background-position: right 1px !important;
+  background-repeat: no-repeat;
+  background-size: 25px 25px;
+  color: #2d426a;
+  float: none !important;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 15px;
+  padding-right: 35px;
+  padding-left: 0px !important;
+  display: inline-block;
+  width: auto !important; }
+
+.SeventyFiveRow .LocRight br, .SeventyFiveRow .LocRight .Proximity {
+  display: none; }
+
+/* BLUE BACKGROUND TO SPECIALTIES */
+.SearchOptional {
+  padding: 10px;
+  margin: 0px !important;
+  background-color: #00698C; }
+
+.SearchOptional .FullRow table label {
+  color: #fff !important; }
+
+[id*="container_FeaturedImage"], [id*="container_FeaturedImage"] div {
+  border: none; }
+
+.firm-desc-edit textarea, .firm-cont-edit textarea {
+  resize: none; }
+
+[id*="container_UploadUtility"] div {
+  border: none; }
+
+.ResultsForm div {
+  border: none !important; }
+
+.firm-cont-edit div, .firm-cont-edit input, .firm-cont-edit textarea {
+  width: 100%; }
+
+.ResultsForm .HalfRow a {
+  font-size: 20px;
+  text-decoration: none; }
+
+.ResultsForm .HalfRow .H4 a {
+  font-size: 22px; }
+
+.ResultsForm .HalfRow .H4 {
+  line-height: 28px; }
+
+.ResultsForm .DataRow .HalfRow {
+  height: 250px;
+  overflow: hidden; }
+
+.ProjectRow + .FullRow {
+  display: none; }
+
+.jcFeaturedImage + div .SeventyFiveRow > div:first-child > br {
+  display: none; }
+
+.jcFeaturedImage + div .SeventyFiveRow > div:first-child > h3 {
+  margin-bottom: 0px !important; }
+
+.firm-desc-edit .PanelFieldValue {
+  width: 100%; }
+
+.BigSearchBox > .CapWhite > span input, .BigSearchBox > .CapWhite > select {
+  width: 175px !important;
+  display: inline-block; }
+
+.SmallSearchBox {
+  margin-bottom: 0px !important; }
+
+.ResultsForm > .SearchOptional {
+  display: none; }
+
+/* ---- RESPONSIVE UPDATES ---- */
+@media (max-width: 991px) {
+  .WebPartZone.firm-finder :root {
+    max-width: 100vw;
+    overflow-x: hidden; }
+  .WebPartZone.firm-finder .iMIS-WebPart .StandardPanel[id*='SearchiPart_ciSearchiPart'] .SmallSearchBox, .WebPartZone.firm-finder .iMIS-WebPart .StandardPanel[id*='SearchiPart_ciSearchiPart'] .BigSearchBox {
+    padding: 20px; }
+  .WebPartZone.firm-finder .iMIS-WebPart .StandardPanel[id*='SearchiPart_ciSearchiPart'] .SmallSearchBox span.riSingle.RadInput.RadInput_Default, .WebPartZone.firm-finder .iMIS-WebPart .StandardPanel[id*='SearchiPart_ciSearchiPart'] .BigSearchBox span.riSingle.RadInput.RadInput_Default {
+    width: 100% !important;
+    max-width: 100% !important; }
+  .WebPartZone.firm-finder .iMIS-WebPart .StandardPanel[id*='SearchiPart_ciSearchiPart'] span[id*='_txtCityStateZip_wrapper'] {
+    width: 100% !important;
+    max-width: 100% !important; }
+  .WebPartZone.firm-finder .iMIS-WebPart .StandardPanel[id*='SearchiPart_ciSearchiPart'] span[id*='_txtCityStateZip_wrapper'] input {
+    width: 100% !important;
+    max-width: 100% !important; }
+  .WebPartZone.firm-finder .iMIS-WebPart .StandardPanel[id*='SearchiPart_ciSearchiPart'] select {
+    width: 100% !important;
+    max-width: 100% !important; }
+  .WebPartZone.firm-finder .iMIS-WebPart .StandardPanel[id*='SearchiPart_ciSearchiPart'] .FullRow h3 {
+    max-width: calc(100% - 80px);
+    padding: 25px 10px 0;
+    margin: 0 !important; }
+  .WebPartZone.firm-finder .iMIS-WebPart .StandardPanel[id*='SearchiPart_ciSearchiPart'] .FullRow input.SearchButton.TextButton {
+    margin: 9px 0; }
+  .WebPartZone.firm-finder .iMIS-WebPart .StandardPanel[id*='SearchiPart_ciSearchiPart'] .FullRow table tr td {
+    width: 100%;
+    display: block; }
+  .WebPartZone.firm-finder .iMIS-WebPart .StandardPanel[id*='SearchiPart_ciSearchiPart'] .ResultsForm {
+    padding-left: 0;
+    padding-right: 0; }
+  .WebPartZone.firm-finder .iMIS-WebPart .StandardPanel[id*='SearchiPart_ciSearchiPart'] .ResultsForm .DataRow .HalfRow, .WebPartZone.firm-finder .iMIS-WebPart .StandardPanel[id*='SearchiPart_ciSearchiPart'] .ResultsForm .DataRow .FullRow {
+    width: 100%;
+    margin-bottom: 20px;
+    height: auto; }
+  .WebPartZone.firm-finder .iMIS-WebPart .StandardPanel[id*='SearchiPart_ciSearchiPart'] .ResultsForm .DataRow .HalfRow [id$="pnlMainRow"], .WebPartZone.firm-finder .iMIS-WebPart .StandardPanel[id*='SearchiPart_ciSearchiPart'] .ResultsForm .DataRow .FullRow [id$="pnlMainRow"] {
+    min-height: 0;
+    border-bottom: 1px solid lightgray !important;
+    padding-bottom: 10px; }
+  .WebPartZone.firm-finder .iMIS-WebPart .StandardPanel[id*='SearchiPart_ciSearchiPart'] .ResultsForm .DataRow .HalfRow .TwentyFiveRow, .WebPartZone.firm-finder .iMIS-WebPart .StandardPanel[id*='SearchiPart_ciSearchiPart'] .ResultsForm .DataRow .FullRow .TwentyFiveRow {
+    width: 100%;
+    margin: 0;
+    padding: 0; }
+  .WebPartZone.firm-finder .iMIS-WebPart .StandardPanel[id*='SearchiPart_ciSearchiPart'] .ResultsForm .DataRow .HalfRow .TwentyFiveRow .myImage, .WebPartZone.firm-finder .iMIS-WebPart .StandardPanel[id*='SearchiPart_ciSearchiPart'] .ResultsForm .DataRow .FullRow .TwentyFiveRow .myImage {
+    margin: 0;
+    padding: 0; }
+  .WebPartZone.firm-finder .iMIS-WebPart .StandardPanel[id*='SearchiPart_ciSearchiPart'] .ResultsForm .DataRow .HalfRow .SeventyFiveRow, .WebPartZone.firm-finder .iMIS-WebPart .StandardPanel[id*='SearchiPart_ciSearchiPart'] .ResultsForm .DataRow .FullRow .SeventyFiveRow {
+    width: 100%;
+    margin: 0;
+    padding: 0; }
+  .WebPartZone.firm-finder .iMIS-WebPart .StandardPanel[id*='SearchiPart_ciSearchiPart'] .ResultsForm .DataRow .HalfRow .SeventyFiveRow .H4, .WebPartZone.firm-finder .iMIS-WebPart .StandardPanel[id*='SearchiPart_ciSearchiPart'] .ResultsForm .DataRow .HalfRow .SeventyFiveRow .LocRight, .WebPartZone.firm-finder .iMIS-WebPart .StandardPanel[id*='SearchiPart_ciSearchiPart'] .ResultsForm .DataRow .FullRow .SeventyFiveRow .H4, .WebPartZone.firm-finder .iMIS-WebPart .StandardPanel[id*='SearchiPart_ciSearchiPart'] .ResultsForm .DataRow .FullRow .SeventyFiveRow .LocRight {
+    max-width: 100%;
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 0; }
+  .WebPartZone.firm-finder .iMIS-WebPart .StandardPanel[id*='SearchiPart_ciSearchiPart'] .ResultsForm .FullRow.SearchOptional {
+    padding: 0; }
+  .WebPartZone.firm-finder .iMIS-WebPart .StandardPanel[id*='SearchiPart_ciSearchiPart'] .ResultsForm .FullRow.SearchOptional .HalfRow.JumpList {
+    padding: 10px;
+    font-size: 14px;
+    color: white !important; }
+  .WebPartZone.firm-finder .iMIS-WebPart .StandardPanel[id*='SearchiPart_ciSearchiPart'] .ResultsForm .FullRow.SearchOptional .HalfRow.JumpList a {
+    font-size: 14px;
+    color: white !important; }
+  .WebPartZone.firm-finder .iMIS-WebPart .FullRow.SearchOptional {
+    padding: 0; }
+  .WebPartZone.firm-finder .iMIS-WebPart .FullRow.SearchOptional .HalfRow.JumpList {
+    padding: 10px;
+    font-size: 14px;
+    color: white !important; }
+  .WebPartZone.firm-finder .iMIS-WebPart .FullRow.SearchOptional .HalfRow.JumpList a {
+    font-size: 14px;
+    color: white !important; }
+  .WebPartZone.firm-finder .iMIS-WebPart .Mapper {
+    max-width: calc(100vw - 45px); }
+  .WebPartZone.firm-finder .iMIS-WebPart div[id*='TemplateBody_WebPartManager1_gwpste_container_SearchiPart_ciSearchiPart_DivDetails'] .HalfRow, .WebPartZone.firm-finder .iMIS-WebPart div[id*='TemplateBody_WebPartManager1_gwpste_container_SearchiPart_ciSearchiPart_DivDetails'] .FullRow {
+    width: 100%;
+    height: auto; }
+  .WebPartZone.firm-finder .iMIS-WebPart div[id*='TemplateBody_WebPartManager1_gwpste_container_SearchiPart_ciSearchiPart_DivDetails'] .HalfRow h3, .WebPartZone.firm-finder .iMIS-WebPart div[id*='TemplateBody_WebPartManager1_gwpste_container_SearchiPart_ciSearchiPart_DivDetails'] .FullRow h3 {
+    padding: 20px 0 0 0 !important; }
+  .WebPartZone.firm-finder .iMIS-WebPart div[id*='TemplateBody_WebPartManager1_gwpste_container_SearchiPart_ciSearchiPart_DivDetails'] .HalfRow [id$="pnlMainRow"], .WebPartZone.firm-finder .iMIS-WebPart div[id*='TemplateBody_WebPartManager1_gwpste_container_SearchiPart_ciSearchiPart_DivDetails'] .FullRow [id$="pnlMainRow"] {
+    min-height: 0;
+    border-bottom: 1px solid lightgray !important;
+    padding-bottom: 10px; }
+  .WebPartZone.firm-finder .iMIS-WebPart div[id*='TemplateBody_WebPartManager1_gwpste_container_SearchiPart_ciSearchiPart_DivDetails'] .HalfRow .TwentyFiveRow, .WebPartZone.firm-finder .iMIS-WebPart div[id*='TemplateBody_WebPartManager1_gwpste_container_SearchiPart_ciSearchiPart_DivDetails'] .FullRow .TwentyFiveRow {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0; }
+  .WebPartZone.firm-finder .iMIS-WebPart div[id*='TemplateBody_WebPartManager1_gwpste_container_SearchiPart_ciSearchiPart_DivDetails'] .HalfRow .TwentyFiveRow .myImage, .WebPartZone.firm-finder .iMIS-WebPart div[id*='TemplateBody_WebPartManager1_gwpste_container_SearchiPart_ciSearchiPart_DivDetails'] .FullRow .TwentyFiveRow .myImage {
+    margin: 20px 0 0 0;
+    padding: 0; }
+  .WebPartZone.firm-finder .iMIS-WebPart div[id*='TemplateBody_WebPartManager1_gwpste_container_SearchiPart_ciSearchiPart_DivDetails'] .HalfRow .SeventyFiveRow, .WebPartZone.firm-finder .iMIS-WebPart div[id*='TemplateBody_WebPartManager1_gwpste_container_SearchiPart_ciSearchiPart_DivDetails'] .FullRow .SeventyFiveRow {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    max-width: 100%; }
+  .WebPartZone.firm-finder .iMIS-WebPart div[id*='TemplateBody_WebPartManager1_gwpste_container_SearchiPart_ciSearchiPart_DivDetails'] .HalfRow .SeventyFiveRow h3, .WebPartZone.firm-finder .iMIS-WebPart div[id*='TemplateBody_WebPartManager1_gwpste_container_SearchiPart_ciSearchiPart_DivDetails'] .FullRow .SeventyFiveRow h3 {
+    width: 100% !important;
+    margin: 20px 0 0 0 !important;
+    padding: 0 !important;
+    max-width: 100%; }
+  .WebPartZone.firm-finder .iMIS-WebPart div[id*='TemplateBody_WebPartManager1_gwpste_container_SearchiPart_ciSearchiPart_DivDetails'] .HalfRow .SeventyFiveRow .LocRight.jcDetails, .WebPartZone.firm-finder .iMIS-WebPart div[id*='TemplateBody_WebPartManager1_gwpste_container_SearchiPart_ciSearchiPart_DivDetails'] .FullRow .SeventyFiveRow .LocRight.jcDetails {
+    width: 100% !important;
+    padding: 0;
+    max-width: 100%; } }
+.WebPartZone.firm-finder .iMIS-WebPart div[id*='TemplateBody_WebPartManager1_gwpciNewContactProfilePictureCommon_ciNewContactProfilePictureCommon__BodyContainer'] {
+  padding: 20px; }
+.WebPartZone.firm-finder .iMIS-WebPart div[id*='TemplateBody_WebPartManager1_gwpste_container_jcFeaturedImage_1_3_cijcFeaturedImage_1_3_FormPanel'] > .FullRow {
+  padding: 10px;
+  background: #9bca39;
+  position: relative; }
+.WebPartZone.firm-finder .iMIS-WebPart div[id*='TemplateBody_WebPartManager1_gwpste_container_jcFeaturedImage_1_3_cijcFeaturedImage_1_3_FormPanel'] > .FullRow h2 {
+  margin: 0;
+  padding: 0;
+  color: white !important;
+  font-weight: 100 !important;
+  font-size: 18px !important; }
+.WebPartZone.firm-finder .iMIS-WebPart div[id*='TemplateBody_WebPartManager1_gwpste_container_jcFeaturedImage_1_3_cijcFeaturedImage_1_3_FormPanel'] > .FullRow .Error {
+  font-size: 12px !important;
+  font-weight: bold !important;
+  text-shadow: 1px 1px #c3c3c3; }
+.WebPartZone.firm-finder .iMIS-WebPart div[id*='TemplateBody_WebPartManager1_gwpste_container_jcFeaturedImage_1_3_cijcFeaturedImage_1_3_FormPanel'] .ContentBorder {
+  padding: 0 0 20px 0;
+  border: 0; }
+.WebPartZone.firm-finder .iMIS-WebPart div[id*='TemplateBody_WebPartManager1_gwpste_container_jcFeaturedImage_1_3_cijcFeaturedImage_1_3_FormPanel'] .ButtonRow {
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  padding: 18px 0 0 0; }
+.WebPartZone.firm-finder .iMIS-WebPart .ContentItemContainer .firm-cont-edit .panel-heading .panel-heading-options .RadButton {
+  float: right;
+  margin: 20px 0 -30px 0; }
+.WebPartZone.firm-finder .iMIS-WebPart .ContentItemContainer .panel-heading.Distinguish {
+  padding: 10px 0; }
+.WebPartZone.firm-finder .iMIS-WebPart .ContentItemContainer .panel-heading .panel-heading-options .RadButton {
+  float: right;
+  margin: 0; }
+.WebPartZone.firm-finder .iMIS-WebPart .ContentItemContainer .panel-heading .panel-heading-options .RadButton .rbText {
+  display: none; }
+.WebPartZone.firm-finder .iMIS-WebPart .ContentItemContainer .panel-body .AddPadding {
+  padding: 0; }
+.WebPartZone.firm-finder .iMIS-WebPart .ContentItemContainer .PanelField.Left .PanelFieldValue {
+  padding: 0;
+  width: 100%; }
+.WebPartZone.firm-finder .iMIS-WebPart .ContentItemContainer .PanelField.Left .PanelFieldValue .CheckBoxList {
+  width: 100% !important;
+  margin: 10px 0 !important;
+  min-height: 200px;
+  padding: 5px 10px !important; }
+.WebPartZone.firm-finder .iMIS-WebPart .ContentItemContainer .PanelField.Left label {
+  width: 100%;
+  padding: 0;
+  margin: 0 0 5px 0; }
+.WebPartZone.firm-finder .iMIS-WebPart div[id*='TemplateBody_WebPartManager1_gwpste_container_UploadUtility_ste_container_UploadUtility'] {
+  border: 1px solid #eee; }
+.WebPartZone.firm-finder .iMIS-WebPart div[id*='TemplateBody_WebPartManager1_gwpste_container_UploadUtility_ste_container_UploadUtility'] div[id*='TemplateBody_WebPartManager1_gwpste_container_UploadUtility_ciUploadUtility_FormPanel'] > .FullRow {
+  padding: 10px;
+  background: #9bca39;
+  position: relative; }
+.WebPartZone.firm-finder .iMIS-WebPart div[id*='TemplateBody_WebPartManager1_gwpste_container_UploadUtility_ste_container_UploadUtility'] div[id*='TemplateBody_WebPartManager1_gwpste_container_UploadUtility_ciUploadUtility_FormPanel'] > .FullRow h2 {
+  margin: 0;
+  padding: 0;
+  color: white !important;
+  font-weight: 100 !important;
+  font-size: 18px !important; }
+.WebPartZone.firm-finder .iMIS-WebPart div[id*='TemplateBody_WebPartManager1_gwpste_container_UploadUtility_ste_container_UploadUtility'] div[id*='TemplateBody_WebPartManager1_gwpste_container_UploadUtility_ciUploadUtility_FormPanel'] > .FullRow .Error {
+  font-size: 12px !important;
+  font-weight: bold !important;
+  text-shadow: 1px 1px #c3c3c3; }
+@media (max-width: 991px) {
+  .WebPartZone.firm-finder .iMIS-WebPart div[id*='TemplateBody_WebPartManager1_gwpste_container_UploadUtility_ste_container_UploadUtility'] div[id*='TemplateBody_WebPartManager1_gwpste_container_UploadUtility_ciUploadUtility_FormPanel'] div[id*='TemplateBody_WebPartManager1_gwpste_container_UploadUtility_ciUploadUtility_pnlImage'] .FullRow .RowLabel, .WebPartZone.firm-finder .iMIS-WebPart div[id*='TemplateBody_WebPartManager1_gwpste_container_UploadUtility_ste_container_UploadUtility'] div[id*='TemplateBody_WebPartManager1_gwpste_container_UploadUtility_ciUploadUtility_FormPanel'] div[id*='TemplateBody_WebPartManager1_gwpste_container_UploadUtility_ciUploadUtility_pnlImage'] .FullRow .RowItem {
+    display: block;
+    width: 100%; } }
+.WebPartZone.firm-finder .iMIS-WebPart div[id*='TemplateBody_WebPartManager1_gwpste_container_UploadUtility_ste_container_UploadUtility'] div[id*='TemplateBody_WebPartManager1_gwpste_container_UploadUtility_ciUploadUtility_FormPanel'] div[id*='TemplateBody_WebPartManager1_gwpste_container_UploadUtility_ciUploadUtility_pnlImage'] .FullRow input {
+  margin: 0 !important; }
+.WebPartZone.firm-finder .iMIS-WebPart div[id*='TemplateBody_WebPartManager1_gwpste_container_UploadUtility_ste_container_UploadUtility'] div[id*='TemplateBody_WebPartManager1_gwpste_container_UploadUtility_ciUploadUtility_FormPanel'] div[id*='TemplateBody_WebPartManager1_gwpste_container_UploadUtility_ciUploadUtility_pnlImage'] .FullRow input[type='file'] {
+  padding: 0 !important; }
+@media (max-width: 991px) {
+  .WebPartZone.firm-finder .iMIS-WebPart div[id*='TemplateBody_WebPartManager1_gwpste_container_UploadUtility_ste_container_UploadUtility'] div[id*='TemplateBody_WebPartManager1_gwpste_container_UploadUtility_ciUploadUtility_FormPanel'] div[id*='TemplateBody_WebPartManager1_gwpste_container_UploadUtility_ciUploadUtility_pnlImage'] .FullRow input[type='file'] {
+    margin: 10px 0 !important; } }
+.WebPartZone.firm-finder .iMIS-WebPart div[id*='TemplateBody_WebPartManager1_gwpste_container_UploadUtility_ste_container_UploadUtility'] div[id*='TemplateBody_WebPartManager1_gwpste_container_UploadUtility_ciUploadUtility_FormPanel'] div[id*='TemplateBody_WebPartManager1_gwpste_container_UploadUtility_ciUploadUtility_pnlImage'] .FullRow h3 {
+  font-size: 20px !important;
+  margin: 10px 0 !important;
+  font-weight: bold !important; }
+.WebPartZone.firm-finder .iMIS-WebPart div[id*='TemplateBody_WebPartManager1_gwpste_container_UploadUtility_ste_container_UploadUtility'] div[id*='TemplateBody_WebPartManager1_gwpste_container_UploadUtility_ciUploadUtility_FormPanel'] div[id*='TemplateBody_WebPartManager1_gwpste_container_UploadUtility_ciUploadUtility_pnlImage']:nth-child(odd) {
+  background: #f7f7f7; }
+.WebPartZone.firm-finder .ContentRecordPageButtonPanel ~ .ButtonPanel.NotPrinted div#masterMainButtonBar {
+  margin-right: -20px; }
+@media (max-width: 991px) {
+  .WebPartZone.firm-finder .ContentRecordPageButtonPanel ~ .ButtonPanel.NotPrinted div#masterMainButtonBar {
+    margin: 10px 0 10px 0;
+    text-align: center; } }
+@media (min-width: 992px) and (max-width: 1092px) {
+  .WebPartZone.firm-finder .SeventyFiveRow {
+    min-width: 444px !important; } }
+
+@media (max-width: 991px) {
+  .WebPartZone.firm-finder .SearchOptional h3 {
+    padding: 25px 0 10px !important; }
+  .WebPartZone.firm-finder .SmallSearchBox {
+    height: auto !important; }
+  .WebPartZone.firm-finder .myImage {
+    text-align: left; }
+  .WebPartZone.firm-finder .DetailsForm .TwentyFiveRow .myImage {
+    text-align: left; }
+  .WebPartZone.firm-finder .iMIS-WebPart div[id*='TemplateBody_WebPartManager1_gwpste_container_SearchiPart_ciSearchiPart_DivDetails'] .FullRow .jcSocial h3 {
+    margin: 0 0 -10px !important; }
+    .WebPartZone.firm-finder .iMIS-WebPart div[id*='TemplateBody_WebPartManager1_gwpste_container_SearchiPart_ciSearchiPart_DivDetails'] .FullRow .jcSocial h3 br {
+      display: none; }
+    .WebPartZone.firm-finder .iMIS-WebPart div[id*='TemplateBody_WebPartManager1_gwpste_container_SearchiPart_ciSearchiPart_DivDetails'] .FullRow .jcSocial h3 img {
+      display: inline-block;
+      margin-top: 15px; } }
+@media (min-width: 992px) {
+  .WebPartZone.firm-finder .DetailsForm .myImage {
+    margin-top: 20px; }
+  .WebPartZone.firm-finder #ctl01_TemplateBody_WebPartManager1_gwpste_container_SearchiPart_ciSearchiPart_lblName,
+  .WebPartZone.firm-finder #specialtiesSection h3 span {
+    display: block;
+    height: 77px; }
+  .WebPartZone.firm-finder #specialtiesSection > h3 {
+    margin-bottom: 0px; } }
+.WebPartZone.firm-finder input[value="Search"] {
+  padding: 6.5px;
+  border: none; }
+.WebPartZone.firm-finder .FullRow.ProjectRow {
+  padding-left: 0;
+  padding-right: 0; }
+.WebPartZone.firm-finder #ctl01_TemplateBody_WebPartManager1_gwpste_container_jcFeaturedImage_1_1_cijcFeaturedImage_1_1_lblFile1.Error,
+.WebPartZone.firm-finder #ctl01_TemplateBody_WebPartManager1_gwpste_container_UploadUtility_ciUploadUtility_lblFile1.Error,
+.WebPartZone.firm-finder #ctl01_TemplateBody_WebPartManager1_gwpste_container_jcFeaturedImage_1_2_cijcFeaturedImage_1_2_lblFile1.Error,
+.WebPartZone.firm-finder #ctl01_TemplateBody_WebPartManager1_gwpste_container_UploadUtility_ciUploadUtility_lblFile2.Error,
+.WebPartZone.firm-finder #ctl01_TemplateBody_WebPartManager1_gwpste_container_UploadUtility_ciUploadUtility_lblFile3.Error,
+.WebPartZone.firm-finder #ctl01_TemplateBody_WebPartManager1_gwpste_container_UploadUtility_ciUploadUtility_lblFile4.Error {
+  color: #0c0 !important; }
+.WebPartZone.firm-finder #ctl01_TemplateBody_WebPartManager1_gwpciNewContactProfilePictureCommon_ciNewContactProfilePictureCommon_RadAjaxPanel1 {
+  text-align: left; }
+.WebPartZone.firm-finder #ctl01_TemplateBody_WebPartManager1_gwpciNewContactProfilePictureCommon_ciNewContactProfilePictureCommon__BodyContainer {
+  padding-left: 0px; }
+
+.WebPartZone.firm-finder .SocialSprite.FacebookIcon.LargeButtons, .WebPartZone.firm-finder .SocialSprite.FacebookIcon.LargeButtons:hover, .WebPartZone.firm-finder a:hover .SocialSprite.FacebookIcon.LargeButtons, .WebPartZone.firm-finder .SocialSprite.FacebookIcon.LargeButtons:focus, .WebPartZone.firm-finder a:focus .SocialSprite.FacebookIcon.LargeButtons, .WebPartZone.firm-finder .SocialSprite.FacebookIcon.LargeButtons:active, .WebPartZone.firm-finder a:active .SocialSprite.FacebookIcon.LargeButtons {
+  background-position: 0 0;
+  background-image: url("https://my.asla.org/images/icons/facebook.png");
+  background-color: transparent;
+  opacity: 1; }
+.WebPartZone.firm-finder .SocialSprite.LinkedInIcon.LargeButtons, .WebPartZone.firm-finder .SocialSprite.LinkedInIcon.LargeButtons:hover, .WebPartZone.firm-finder a:hover .SocialSprite.LinkedInIcon.LargeButtons, .WebPartZone.firm-finder .SocialSprite.LinkedInIcon.LargeButtons:focus, .WebPartZone.firm-finder a:focus .SocialSprite.LinkedInIcon.LargeButtons, .WebPartZone.firm-finder .SocialSprite.LinkedInIcon.LargeButtons:active, .WebPartZone.firm-finder a:active .SocialSprite.LinkedInIcon.LargeButtons {
+  background-position: 0 0;
+  background-image: url("https://my.asla.org/images/icons/linkedin.png");
+  background-color: transparent;
+  opacity: 1; }
+.WebPartZone.firm-finder .SocialSprite.TwitterIcon.LargeButtons, .WebPartZone.firm-finder .SocialSprite.TwitterIcon.LargeButtons:hover, .WebPartZone.firm-finder a:hover .SocialSprite.TwitterIcon.LargeButtons, .WebPartZone.firm-finder .SocialSprite.TwitterIcon.LargeButtons:focus, .WebPartZone.firm-finder a:focus .SocialSprite.TwitterIcon.LargeButtons, .WebPartZone.firm-finder .SocialSprite.TwitterIcon.LargeButtons:active, .WebPartZone.firm-finder a:active .SocialSprite.TwitterIcon.LargeButtons {
+  background-position: 0 0;
+  background-image: url("https://my.asla.org/images/icons/twitter.png");
+  background-color: transparent;
+  opacity: 1; }
+.WebPartZone.firm-finder span[id*="AREAS_OF_SPECIALTY"] input {
+  margin-right: 7px;
+  top: 2px;
+  position: relative; }
+.WebPartZone.firm-finder input[id*="AREAS_OF_SPECIALTY_0"],
+.WebPartZone.firm-finder label[for*="AREAS_OF_SPECIALTY_0"],
+.WebPartZone.firm-finder label[for*="AREAS_OF_SPECIALTY_0"] + br {
+  display: none; }
+.WebPartZone.firm-finder [id*="container_ManageFirmProfileButton"] {
+  padding-left: 5px;
+  margin-bottom: 5px; }
+.WebPartZone.firm-finder [id*="container_SearchiPart_ciSearchiPart_DivDetailsSearch"] * {
+  color: #fff !important; }
+.WebPartZone.firm-finder [id*="container_SearchiPart_ciSearchiPart_DivDetailsSearch"] {
+  padding: 5px !important; }
+@media (max-width: 991px) {
+  .WebPartZone.firm-finder table[id*="ciSearchiPart_cblSpecialty"] input {
+    float: left;
+    top: 4px;
+    position: relative; }
+  .WebPartZone.firm-finder table[id*="ciSearchiPart_cblSpecialty"] label {
+    max-width: 80%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    clear: none; }
+  .WebPartZone.firm-finder #map_canvas {
+    margin-top: 20px; } }
+@media (min-width: 992px) {
+  .WebPartZone.firm-finder {
+    /*
+    #specialtiesSection, #contactSection{
+      position: absolute;
+      top: 100px;
+    }
+    */ }
+    .WebPartZone.firm-finder .nameTitleSection, .WebPartZone.firm-finder .jcSocial {
+      position: relative; }
+    .WebPartZone.firm-finder .jcFeaturedImage + div {
+      height: 275px; } }
+
+/*# sourceMappingURL=z-asla-firmfinder.css.map */
